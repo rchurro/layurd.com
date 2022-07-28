@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "name": "Box",
+      "children": [
+        {
+          "name": "Model",
+          "children": [],
+          "components": [
+            {
+              "type": "ModelRenderer",
+              "config": {
+                "modelAssetId": "114",
+                "animationId": null,
+                "formatVersion": 1,
+                "overrideOpacity": false,
+                "color": "ffffff",
+                "castShadow": false,
+                "receiveShadow": false,
+                "materialType": "basic"
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": "1"
+        }
+      ],
+      "components": [
+        {
+          "type": "CannonBody",
+          "config": {
+            "mass": 5,
+            "fixedRotation": false,
+            "shape": "box",
+            "radius": 1,
+            "height": 1,
+            "formatVersion": 2,
+            "positionOffset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "halfSize": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "orientationOffset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "segments": 16,
+            "group": 1,
+            "mask": 1
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "id": "0"
+    }
+  ],
+  "formatVersion": 1
+}
